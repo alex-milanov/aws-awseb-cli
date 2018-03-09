@@ -1,0 +1,1 @@
+# some basic instructions in order to use aws & awseb cli in gitlab ci
