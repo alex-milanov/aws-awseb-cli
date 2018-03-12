@@ -1,5 +1,4 @@
-FROM mhart/alpine-node:8.9.4
-RUN apk add --no-cache make gcc g++ python
-RUN apk add --no-cache curl jq python py-pip gettext git
+FROM docker:latest
+RUN apk add --no-cache curl jq python py-pip gettext git nodejs
 
 RUN pip install awscli awsebcli
